@@ -16,6 +16,6 @@ useSchemaOrg([
 
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtPage />
   </div>
 </template>
