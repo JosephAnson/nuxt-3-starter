@@ -52,6 +52,8 @@ export default defineNuxtConfig({
     '@nuxtjs/web-vitals',
     '@nuxtjs/robots',
     'nuxt-schema-org',
+    '@unlighthouse/nuxt',
+    'nuxt-og-image',
   ],
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }],
   srcDir: 'src/',
@@ -97,5 +99,19 @@ export default defineNuxtConfig({
   },
   webVitals: {
     provider: 'vercel',
+  },
+  image: {
+    screens: {
+      'xs': 320,
+      'sm': 640,
+      'md': 768,
+      'lg': 1024,
+      'xl': 1280,
+      'xxl': 1536,
+      '2xl': 1536,
+    },
+  },
+  ogImage: {
+    fonts: ['Source Sans Pro:400', 'Montserrat:700'],
   },
 })
