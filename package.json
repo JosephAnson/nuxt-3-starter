@@ -24,18 +24,18 @@
     "@antfu/eslint-config": "^0.38.4",
     "@iconify-json/carbon": "^1.1.16",
     "@nuxt/devtools": "^0.4.0",
-    "@nuxt/image-edge": "^1.0.0-testing",
+    "@nuxt/image-edge": "^1.0.0-28008586.381b906",
     "@nuxtjs/eslint-module": "^4.0.2",
     "@nuxtjs/html-validator": "^1.2.4",
     "@nuxtjs/i18n": "^8.0.0-beta.11",
     "@nuxtjs/robots": "^3.0.0",
-    "typescript": "^4.9.5",
     "@unlighthouse/nuxt": "^0.4.9",
     "eslint": "^8.38.0",
     "nuxt": "^3.4.1",
     "nuxt-og-image": "^1.5.7",
     "nuxt-simple-sitemap": "^2.4.11",
     "sass": "^1.62.0",
+    "typescript": "^4.9.5",
     "unocss": "^0.51.4"
   }
 }
